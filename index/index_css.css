@@ -1,69 +1,58 @@
-body{ 
+body{
     margin: 0;
-    padding: 0;
-    background: #34495e;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "montserrat", sans-serif;
-}
+}                            /* 左右填滿*/
+
+#header{
+    background-color: #98c2ec;
+    height: 113px;
+
+} 
 
 
-.loading{
-    width: 200px;
-    height: 200px;
-    box-sizing:  border-box;
-    border-radius: 50%;
-    border-top: 10px solid #e74c3c;
-    position: relative;
-    animation: a1 2s linear infinite;
-}
+#header .logoleft{
+    margin: 17px;
+    width: 350px;
+    height: 6vw;
+    float: left;
+    
+} 
 
-.loading::before,.loading::after{
-    content: '';
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 0;
-    top: -10px;
-    box-sizing: border-box;
-    border-radius: 50%;
+
+
+#menu {
+    margin: 0;
+    float: right;
 
 }
-
-
-.loading::before{
-    border-top: 10px solid #e67e22;
-    transform: rotate(120deg);
-}
-
-
-.loading::after{
-    border-top: 10px solid #3498db;
-    transform: rotate(240deg);
-}
-
-.loading span{
-    position:absolute;
-    width: 200px;
-    height: 200px;
-    color:#fff;
+    
+.button {
+    width:120px;
+    height:40px;
+    border:2px #ffffff dashed;
+    background-color: transparent;
+    color: white;
     text-align: center;
-    line-height: 200px;
-    animation: a2 2s linear infinite;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+    
 }
 
-@keyframes a1 {
-    to{
-transform: rotate(360deg);
-
-    }
+#main{
+    background-color:#FF7789;
+    position: inherit;
+    height: 46vw;
+    margin: 0;
+    color: white;
 }
 
-@keyframes a2 {
-    to{
-transform: rotate(-360deg);
 
-    }
+
+#main2{
+    background-color:#FFE711;
+    position: inherit;
+    height: 46vw;
+    margin: 0;
+    color: white;
 }

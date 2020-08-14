@@ -35,14 +35,15 @@
 }
 
 #index div.content{
-    background-color: rgb(249, 19, 19);
+    
     width: 100%;
     height: 100vh;
-    display: grid;
+    
+    overflow:hidden;
 }
 
 #index div.content img{
     width: 100%;
     height: 100vh;
-    display: grid;
+    
 }

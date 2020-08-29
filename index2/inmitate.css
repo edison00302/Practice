@@ -111,7 +111,7 @@ div.main .workpieces .changesizeofdiv{
 
 #carouselExampleIndicators .carousel-inner img{
     height: 400px;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%) /* 切成平行四邊形 */
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%) /* 圖片切成平行四邊形 */
 }
 
 div.main .footer{

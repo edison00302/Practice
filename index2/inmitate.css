@@ -39,6 +39,7 @@ div.menuback .menu_main li{
     color: rgb(7, 6, 6); /* 把字的顏色改成黑色 */
     line-height: 130px;   /* 把字平行往下 */
     margin-right: 40px; /* 清單裡面字之間的距離 */
+    font-family: 'Cinzel', serif;
 }
 
 div.menuback .menu_main .user{
@@ -47,17 +48,74 @@ div.menuback .menu_main .user{
     margin-right:10px;
 }
 
+div.menuback .menu_main .user a{
+    text-decoration:none;
+}
+
 #icon{
     color:rgb(187, 190, 199); 
     margin-right: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
 }
 
-div.content{
-    background: rgb(2, 2, 2);
-    height: 100vh;
+#icon:hover{
+    color: rgb(7, 6, 6);
 }
+
 .tales {
     width: 100vw;            /*圖片的寬度與高度 */
     max-height: 100vh
   }
+
+div.main{
+    display: grid;
+    height: 110vh;
+    display: grid; 
+    grid-template-rows: 150px 1fr 100px; /*分成三塊 上給說明 中給圖片跑馬燈 下給footer */
+}
+
+div.main .intro{
+    background: rgb(255, 255, 255);
+    height: 150px;
+
+}
+
+div.main .intro .paragraph1{
+    width: 70vw;
+    margin:0px auto; /* div置中 */
+    margin-top:25px;
+    color: rgb(2, 2, 2);
+}
+
+div.main .intro .paragraph1 h1{
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+div.main .intro .paragraph1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+div.main .workpieces .changesizeofdiv{
+    margin-left:320px;
+    margin-top:100px;
+    width: 800px;
+    max-height: 600px;
+}
+
+
+#carouselExampleIndicators .carousel-inner img{
+    height: 400px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%) /* 切成平行四邊形 */
+}
+
+div.main .footer{
+    height: 100px;
+    color: rgb(189, 188, 188);
+    text-align: center;
+}
